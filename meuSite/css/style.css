@@ -101,10 +101,11 @@ body {
     height: 530px;
     border-radius: 100px;
     margin-top: 30px;
+    transition: ease 1s;
 }
 
 .fotopessoal:hover{
-    transition: 1s ease-in-out;
+    transition: ease 1s;
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -121,11 +122,12 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin-top: 3%;
+    transition: ease 1s;
 }
 
 .inicio-botao:hover{
     background-color: var(--cor-primaria);
-    transition: 1.5s ease;
+    transition: ease 1.5s;
 }
 /* Fim */
 
@@ -173,6 +175,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     margin-top: 2%;
+    transition: ease 1s;
 }
 
 .texto-botao:hover{
